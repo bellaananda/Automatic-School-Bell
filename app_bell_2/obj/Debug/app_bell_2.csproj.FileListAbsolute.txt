@@ -1,0 +1,45 @@
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\Automatic School Bell.exe.config
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\icons\icons\key.png
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\icons\icons\settings.png
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\icons\icons\eye.png
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\icons\icons\home.png
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\icons\icons\search.png
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\icons\icons\phone.png
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\icons\icons\email.png
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\icons\icons\web.png
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\icons\logo\circle-cropped.ico
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\icons\logo\circle-cropped.ico13072021112825.ico
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\icons\logo\circle-cropped.png
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\icons\logo\circle-cropped.png13072021112350.png
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\test.db
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\audio\tes1.wav
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\audio\tes2.wav
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\audio\tes3.wav
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\audio\tes4.wav
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\bin\Debug\audio\tes5.wav
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\Properties\Resources.resx
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\Properties\AssemblyInfo.cs
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\Properties\Resources.Designer.cs
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\App.config
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\Automatic School Bell.exe.manifest
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\Automatic School Bell.application
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\Automatic School Bell.exe
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\Automatic School Bell.pdb
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\System.Data.SQLite.DLL
+C:\Users\user\Desktop\app_bell_2\app_bell_2\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\user\Desktop\app_bell_2\app_bell_2\obj\Debug\app_bell_2.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\app_bell_2\app_bell_2\obj\Debug\app_bell_2.About.resources
+C:\Users\user\Desktop\app_bell_2\app_bell_2\obj\Debug\app_bell_2.Activate.resources
+C:\Users\user\Desktop\app_bell_2\app_bell_2\obj\Debug\app_bell_2.Contact.resources
+C:\Users\user\Desktop\app_bell_2\app_bell_2\obj\Debug\app_bell_2.Main.resources
+C:\Users\user\Desktop\app_bell_2\app_bell_2\obj\Debug\app_bell_2.Properties.Resources.resources
+C:\Users\user\Desktop\app_bell_2\app_bell_2\obj\Debug\app_bell_2.Settings.resources
+C:\Users\user\Desktop\app_bell_2\app_bell_2\obj\Debug\app_bell_2.Settings_ChangePass.resources
+C:\Users\user\Desktop\app_bell_2\app_bell_2\obj\Debug\app_bell_2.Settings_Pass.resources
+C:\Users\user\Desktop\app_bell_2\app_bell_2\obj\Debug\app_bell_2.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\app_bell_2\app_bell_2\obj\Debug\Automatic School Bell.exe.manifest
+C:\Users\user\Desktop\app_bell_2\app_bell_2\obj\Debug\Automatic School Bell.application
+C:\Users\user\Desktop\app_bell_2\app_bell_2\obj\Debug\Automatic School Bell.exe
+C:\Users\user\Desktop\app_bell_2\app_bell_2\obj\Debug\Automatic School Bell.pdb

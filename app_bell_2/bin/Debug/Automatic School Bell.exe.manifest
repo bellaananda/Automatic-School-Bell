@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Automatic School Bell.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" type="win32" />
+  <description asmv2:iconFile="bin\Debug\icons\logo\circle-cropped.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Automatic School Bell" version="1.0.0.2" language="neutral" processorArchitecture="amd64" />
+    <commandLine file="Automatic School Bell.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Automatic School Bell.exe" size="563160">
+      <assemblyIdentity name="Automatic School Bell" version="1.0.0.2" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YESIdcaHUYvsjGRQNmcMFDldJs+OSR/tUkl2CpqAyFk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="61440">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fPFBh30ZM0l6zhfB0hlMAtUQGMe2Rsci8jn8+0hCY7o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.52.dll" size="225792">
+      <assemblyIdentity name="Bunifu_UI_v1.52" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J8jOp+eTrOc3QViBpcFrTi2YzkZgnScugsbJBa0tnzY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.DLL" size="1102336">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.66.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mGbc6xgYUuqzc1r+67rB6ngQhXIBMZwsWir0Zn6qjUU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.Linq.dll" size="174080">
+      <assemblyIdentity name="System.Data.SQLite.Linq" version="2.0.38.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rGqXV2DsBBexXFTJ89FKvKR6MhTREBTuXC5glD9bQEU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Automatic School Bell.exe.config" size="1456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p2/bIOlM/pvM6JkLkTya/W4+TV138PeEAVPaKy3cfhg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\audio\tes1.wav" size="1916844">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gezp69NFRtIaK6lntGMkfd802H6E/nWtB9HmqIMGeoo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\audio\tes2.wav" size="2386860">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iU27dvew8JeS5V0/LQiwNgdG7ChXcOIoa8cAzbQcPYM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\audio\tes3.wav" size="1041324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lluc2k614B0p4uIyBetHLs/tqaGBzwZujw7uDXixZrU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\audio\tes4.wav" size="2820012">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cvZPQF1lwYU3Dk5j6zOVR05sgvlxhoyMmTZ88LIC9Cg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\audio\tes5.wav" size="2589612">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wUFBuO1KZLLcQz3GtVezNwHHxe/wjAGAIh/+FSbgtD4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\icons\icons\email.png" size="12414">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XdVwvp636296mnqhidrVYWvdLZSg9MGJE8STP2YuBsA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\icons\icons\eye.png" size="33716">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uVGV8YZ+raMDZD7liwwul4SPUmocy2UtNI3mozwHggA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\icons\icons\home.png" size="8202">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NyFx+zcdGYJ6Zrt7G9tK+aFCXi+tCme3YACmkHK55JM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\icons\icons\key.png" size="9860">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t8QD+sR9V7K4pJVUu/WaWj78aWHEMLLlp0XgDs/RNtw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\icons\icons\phone.png" size="15451">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>b5ej6pHZDWtEYwpO3sVeAZ1H3YJRncDoiUOsrC5FzII=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\icons\icons\search.png" size="37448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aE8M9TDMw0aEhLB9S7AtjBelWxqwLbXk2s9Bg7G14ug=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\icons\icons\settings.png" size="25614">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IVkdt59qhRUviqSKUTUIoxL5D2f3HAp2BUQEbbbB1yA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\icons\icons\web.png" size="29873">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2hPXYugIpgkNE2Mo1ed33lApXDBjTH1ir45nOPScJ/M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\icons\logo\circle-cropped.ico" size="209762">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zvY0Qa39Q/rgnLT+0Uba5sJTniZr43PK7cdP9d7xeWI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\icons\logo\circle-cropped.ico13072021112825.ico" size="209762">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zvY0Qa39Q/rgnLT+0Uba5sJTniZr43PK7cdP9d7xeWI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\icons\logo\circle-cropped.png" size="55673">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6swVxmpiW5woe9Yeq8SltQmGTd44posCZExbDM0I1O4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\icons\logo\circle-cropped.png.png" size="55673">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6swVxmpiW5woe9Yeq8SltQmGTd44posCZExbDM0I1O4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\icons\logo\circle-cropped.png13072021112350.png" size="55673">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6swVxmpiW5woe9Yeq8SltQmGTd44posCZExbDM0I1O4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\test.db" size="45056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lBenKcDBgn7QmeQ8gc7XNlQBXzaNu9FHwpi2arf4058=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
